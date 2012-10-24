@@ -4,6 +4,6 @@ import play.mvc.With;
 
 @With(Secure.class)
 @Check(Security.ACCESS)
-public class UserStatuses extends CRUD{
+public class UserStatuss extends CRUD{
 
 }
