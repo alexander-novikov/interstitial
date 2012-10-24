@@ -7,6 +7,8 @@ import java.util.*;
 
 import models.*;
 
+@With(Secure.class)
+@Check(Security.ACCESS)
 public class Application extends Controller {
 
     public static void index() {
