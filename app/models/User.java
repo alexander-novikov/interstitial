@@ -80,4 +80,8 @@ public class User extends Model{
 
         return false;
     }
+    
+    public String toString(){
+        return login;
+    }
 }
