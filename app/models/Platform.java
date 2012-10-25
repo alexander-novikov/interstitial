@@ -11,17 +11,19 @@ import play.db.jpa.Model;
 @Entity
 public class Platform extends Model{
 	
-	/** The name. */
-	String name;
+    /** The name. */
+    public String name;
 
-	/**
-	 * Instantiates a new platform.
-	 *
-	 * @param name the name
-	 */
-	public Platform(String name) {
-		this.name = name;
-	}
+    /**
+        * Instantiates a new platform.
+        *
+        * @param name the name
+        */
+    public Platform(String name) {
+        this.name = name;
+    }
 
-	
+    public String toString() {
+        return name;
+    }
 }

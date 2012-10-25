@@ -22,7 +22,7 @@ public class UserGroupAccess extends Model{
     public String pattern;
 		
     public UserGroupAccess(UserGroup userGroup, String pattern) {
-            this.userGroup = userGroup;
-            this.pattern = pattern;
+        this.userGroup = userGroup;
+        this.pattern = pattern;
     }
 }

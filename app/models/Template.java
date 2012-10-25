@@ -3,8 +3,8 @@ package models;
 import javax.persistence.Entity;
 import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
+import play.data.validation.MaxSize;
 
-import net.sf.oval.constraint.MaxSize;
 
 import play.data.validation.Required;
 import play.db.jpa.Model;

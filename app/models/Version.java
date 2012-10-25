@@ -13,21 +13,25 @@ import play.db.jpa.Model;
 @Entity
 public class Version extends Model{
 	
-	/** The platform. */
-	@ManyToOne
-	public Platform platform;
-	
-	/** The version. */
-	public Long version;
-	
-	/**
-	 * Instantiates a new version.
-	 *
-	 * @param platform the platform
-	 * @param version the version
-	 */
-	public Version(Platform platform, Long version) {
-		this.platform = platform;
-		this.version = version;
-	}
+    /** The platform. */
+    @ManyToOne
+    public Platform platform;
+
+    /** The version. */
+    public Long version;
+
+    /**
+        * Instantiates a new version.
+        *
+        * @param platform the platform
+        * @param version the version
+        */
+    public Version(Platform platform, Long version) {
+        this.platform = platform;
+        this.version = version;
+    }
+        
+    public String toString() {
+        return version.toString();
+    }
 }
