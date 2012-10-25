@@ -18,7 +18,7 @@ public class Version extends Model{
     public Platform platform;
 
     /** The version. */
-    public Long version;
+    public Double version;
 
     /**
         * Instantiates a new version.
@@ -26,7 +26,7 @@ public class Version extends Model{
         * @param platform the platform
         * @param version the version
         */
-    public Version(Platform platform, Long version) {
+    public Version(Platform platform, Double version) {
         this.platform = platform;
         this.version = version;
     }
