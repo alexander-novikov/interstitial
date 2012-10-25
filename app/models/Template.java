@@ -6,6 +6,7 @@ import javax.persistence.ManyToOne;
 import play.data.validation.MaxSize;
 
 
+import play.data.validation.MaxSize;
 import play.data.validation.Required;
 import play.db.jpa.Model;
 
@@ -20,7 +21,7 @@ public class Template extends Model{
 	/** The body. */
 	@Lob
 	@Required
-	@MaxSize(10000)
+	@MaxSize(9000)
 	public String html;
 	
 	/** The description. */

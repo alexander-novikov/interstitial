@@ -14,7 +14,7 @@ public class Bootstrap extends Job{
 		//честно - было влом составлять yml как в доках, 
 		//поэтому заносим программно initial
 		//data, особой разницы не вижу
-		//if ( User.count() ==0 ){
+		if ( User.count() ==0 ){
 			
 			UserStatus userstatus = new UserStatus("Status 666");
 			userstatus.save();
@@ -24,7 +24,7 @@ public class Bootstrap extends Job{
 			user.save();
                         UserGroupAccess uga = new UserGroupAccess(usergroup, ".*");
                         uga.save();
-	//	}
+		}
 		
 	}
 	
