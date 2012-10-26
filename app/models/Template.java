@@ -10,41 +10,21 @@ import play.data.validation.MaxSize;
 import play.data.validation.Required;
 import play.db.jpa.Model;
 
-// TODO: Auto-generated Javadoc
-/**
- * The Class Template.
- */
-
 @Entity
-public class Template extends Model{
-	
-	/** The body. */
-	@Lob
-	@Required
-	@MaxSize(9000)
-	public String html;
-	
-	/** The description. */
-	@ManyToOne
-	public Platform platform;
-	
-	/** The country. */
-	@ManyToOne
-	public Country country;
+public class Template extends Model {
 
-	/**
-	 * Instantiates a new template.
-	 *
-	 * @param html the html
-	 * @param platform the platform
-	 * @param country the country
-	 */
-	public Template(String html, Platform platform, Country country) {
-		this.html = html;
-		this.platform = platform;
-		this.country = country;
-	}
-	
-	
-
+    @Lob
+    @Required
+    @MaxSize(9000)
+    public String html;
+    @ManyToOne
+    public Platform platform;
+    @ManyToOne
+    public Region region;
+    
+    public Template(String html, Platform platform, Region region) {
+        this.html = html;
+        this.platform = platform;
+        this.region = region;
+    }
 }
