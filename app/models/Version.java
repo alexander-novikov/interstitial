@@ -32,6 +32,6 @@ public class Version extends Model{
     }
         
     public String toString() {
-        return version.toString();
+        return version.toString() + " ("+ platform.name.toString() +")";
     }
 }
