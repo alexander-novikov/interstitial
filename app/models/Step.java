@@ -24,7 +24,7 @@ public class Step extends Model{
     public String name;
 
     /** The number. */
-    public String number;
+    public Long number;
 
     /** The templates. */
     @ManyToMany(cascade=CascadeType.ALL)
@@ -37,7 +37,7 @@ public class Step extends Model{
     * @param number the number
     * @param templates the templates
     */
-    public Step(String name, String number, Set<Template> templates) {
+    public Step(String name, Long number, Set<Template> templates) {
         this.name = name;
         this.number = number;
         this.templates = templates;

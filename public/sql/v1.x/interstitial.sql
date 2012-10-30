@@ -142,7 +142,7 @@ ALTER TABLE public.region OWNER TO interstitial;
 CREATE TABLE step (
     id bigint NOT NULL,
     name character varying(255),
-    number character varying(255)
+    number bigint
 );
 
 
@@ -643,9 +643,9 @@ INSERT INTO region (id, code, name) VALUES (-248, 'AP', 'Asia Pacific countrys')
 -- Data for Name: step; Type: TABLE DATA; Schema: public; Owner: interstitial
 --
 
-INSERT INTO step (id, name, number) VALUES (7, 'Step1 MobPartner', '1');
-INSERT INTO step (id, name, number) VALUES (8, 'Step2 NeverBlue', '2');
-INSERT INTO step (id, name, number) VALUES (9, 'Step3 MobPartner NeverBlue', '3');
+INSERT INTO step (id, name, number) VALUES (7, 'Step1 MobPartner', 1);
+INSERT INTO step (id, name, number) VALUES (8, 'Step2 NeverBlue', 2);
+INSERT INTO step (id, name, number) VALUES (9, 'Step3 MobPartner NeverBlue', 3);
 
 
 --
