@@ -1,0 +1,29 @@
+<script type="text/javascript">
+    // 	hodgie code 
+    
+    function loadAdministration(){
+        $('#content').html('<iframe src="/crud/index/" height="100%" width="100%">');
+    }
+    function loadStatistic(){
+        $('#content').html('<iframe src="/statistic/index/" height="100%" width="100%">');
+    }
+</script>
+
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        #{script 'jquery-1.7.2.min.js' /}
+    </head>
+    <body>
+        <div id="menu">
+            <input type="button" value="Administration" onclick="loadAdministration();">
+            <input type="button" value="Reports" onclick="loadStatistic();">
+        </div>
+        <div id="content">
+            <iframe src="/crud/index/" height="100%" width="100%">
+        </div>
+    </body>
+</html>
+
+
