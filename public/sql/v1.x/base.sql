@@ -275,21 +275,21 @@ INSERT INTO "platform" (id, name) VALUES (-14, 'nook');
 INSERT INTO "platform" (id, name) VALUES (-15, 'web');
 INSERT INTO "platform" (id, name) VALUES (-16, 'amazon');
 
-INSERT INTO "version" (id, version, platform_id) VALUES (-1, 1, -1);
-INSERT INTO "version" (id, version, platform_id) VALUES (-2, 1, -2);
-INSERT INTO "version" (id, version, platform_id) VALUES (-3, 1, -3);
-INSERT INTO "version" (id, version, platform_id) VALUES (-4, 1, -4);
-INSERT INTO "version" (id, version, platform_id) VALUES (-5, 1, -5);
-INSERT INTO "version" (id, version, platform_id) VALUES (-6, 1, -6);
-INSERT INTO "version" (id, version, platform_id) VALUES (-7, 1, -7);
-INSERT INTO "version" (id, version, platform_id) VALUES (-8, 1, -8);
-INSERT INTO "version" (id, version, platform_id) VALUES (-9, 1, -9);
-INSERT INTO "version" (id, version, platform_id) VALUES (-10, 1, -10);
-INSERT INTO "version" (id, version, platform_id) VALUES (-11, 1, -11);
-INSERT INTO "version" (id, version, platform_id) VALUES (-12, 1, -12);
-INSERT INTO "version" (id, version, platform_id) VALUES (-13, 1, -13);
-INSERT INTO "version" (id, version, platform_id) VALUES (-14, 1, -14);
-INSERT INTO "version" (id, version, platform_id) VALUES (-15, 1, -15);
-INSERT INTO "version" (id, version, platform_id) VALUES (-16, 1, -16);
+INSERT INTO "version" (id, version, platform_id) VALUES (-1, '1', -1);
+INSERT INTO "version" (id, version, platform_id) VALUES (-2, '1', -2);
+INSERT INTO "version" (id, version, platform_id) VALUES (-3, '1', -3);
+INSERT INTO "version" (id, version, platform_id) VALUES (-4, '1', -4);
+INSERT INTO "version" (id, version, platform_id) VALUES (-5, '1', -5);
+INSERT INTO "version" (id, version, platform_id) VALUES (-6, '1', -6);
+INSERT INTO "version" (id, version, platform_id) VALUES (-7, '1', -7);
+INSERT INTO "version" (id, version, platform_id) VALUES (-8, '1', -8);
+INSERT INTO "version" (id, version, platform_id) VALUES (-9, '1', -9);
+INSERT INTO "version" (id, version, platform_id) VALUES (-10, '1', -10);
+INSERT INTO "version" (id, version, platform_id) VALUES (-11, '1', -11);
+INSERT INTO "version" (id, version, platform_id) VALUES (-12, '1', -12);
+INSERT INTO "version" (id, version, platform_id) VALUES (-13, '1', -13);
+INSERT INTO "version" (id, version, platform_id) VALUES (-14, '1', -14);
+INSERT INTO "version" (id, version, platform_id) VALUES (-15, '1', -15);
+INSERT INTO "version" (id, version, platform_id) VALUES (-16, '1', -16);
 
 
