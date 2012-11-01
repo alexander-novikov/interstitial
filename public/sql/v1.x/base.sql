@@ -1,3 +1,9 @@
+SET statement_timeout = 0;
+SET client_encoding = 'KOI8R';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
 INSERT INTO "region" (id, code, name) VALUES (-1, 'HM', 'Heard Island and McDonald Islands');
 INSERT INTO "region" (id, code, name) VALUES (-2, 'BD', 'People''s Republic of Bangladesh');
 INSERT INTO "region" (id, code, name) VALUES (-3, 'EU', 'Europe');
